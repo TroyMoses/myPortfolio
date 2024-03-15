@@ -1,2 +1,1 @@
-# myPortfolio
-This is my portfolio website
+# ethan-portfolio-starter
