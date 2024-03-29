@@ -26,18 +26,18 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="next" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma key="figma" />, <SiAdobexd key="adobexd" />, <SiAdobephotoshop key="photoshop" />],
       },
     ],
   },
@@ -118,7 +118,7 @@ const About = () => {
         animate='show'
         exit='hidden' 
         className="hidden xl:flex absolute bottom-0 -left-[370px]">
-        <Avatar />
+        {/* <Avatar /> */}
       </motion.div>
 
       <div 
@@ -133,7 +133,7 @@ const About = () => {
               animate='show'
               exit='hidden'  
               className="h2">
-              Captivating <span className="text-accent">storoies</span> birth magnificent designs.
+              Captivating <span className="text-accent">stories</span> birth magnificent designs.
             </motion.h2>
             <motion.p 
               variants={fadeIn('right', 0.4)} 
@@ -141,7 +141,7 @@ const About = () => {
               animate='show'
               exit='hidden'  
               className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-              10 years ago, I began freelancing as a developer. Since then, I've done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer use.
+                10 years ago, I began freelancing as a developer. Since then, I have done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer use.
             </motion.p>
             {/* Counters */}
             <motion.div 
@@ -199,7 +199,9 @@ const About = () => {
                   </div>
                 </div>
 
-              </div>
+              </div
+
+>
             </motion.div>
           </div>
 
@@ -242,8 +244,8 @@ const About = () => {
                     <div className="flex gap-x-4">
                       
                       {/* Icons */}
-                      {item.icons?.map((icon, itemIndex) => {
-                        return <div className="text-2xl">{icon}</div>
+                      {item.icons?.map((icon, iconIndex) => {
+                        return <div key={iconIndex} className="text-2xl">{icon}</div>
                       })}
                     </div>
                   </div>
