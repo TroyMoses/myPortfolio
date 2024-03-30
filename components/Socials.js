@@ -16,17 +16,17 @@ const Socials = () => {
     <div 
       className="flex items-center gap-x-5 text-lg">
       <Link 
-        href={''} 
+        href={'https://github.com/TroyMoses'} 
         className="hover:text-accent transition-all duration-300">
           <RiGithubLine />
       </Link>
       <Link 
-        href={''} 
+        href={'https://linkedin.com/in/troymoses'} 
         className="hover:text-accent transition-all duration-300">
           <RiLinkedinLine />
       </Link>
       <Link 
-        href={''} 
+        href={'https://twitter.com/iamtroy'} 
         className="hover:text-accent transition-all duration-300">
           <RiTwitterLine />
       </Link>
@@ -36,12 +36,12 @@ const Socials = () => {
           <RiYoutubeLine />
       </Link>
       <Link 
-        href={''} 
+        href={'https://instagram.com/troy_sean_mowzey'} 
         className="hover:text-accent transition-all duration-300">
           <RiInstagramLine />
       </Link>
       <Link 
-        href={''} 
+        href={'https://discord.gg/troy256'} 
         className="hover:text-accent transition-all duration-300">
           <RiDiscordLine />
       </Link>

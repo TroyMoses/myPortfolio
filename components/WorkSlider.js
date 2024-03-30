@@ -6,18 +6,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link: 'http://troylegacy.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link: 'http://nalongo-lwokyaza-foundation.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          link: 'http://usvaswampvolleyball.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link: 'http://ozohengineeringcompany.com',
         },
       ],
     },
@@ -26,18 +30,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link: 'http://ozohengineeringcompany.com',
         },
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link: 'http://troylegacy.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link: 'http://nalongo-lwokyaza-foundation.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          link: 'http://usvaswampvolleyball.vercel.app',
         },
       ],
     },
