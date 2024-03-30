@@ -92,12 +92,14 @@ const WorkSlider = () => {
                     <div 
                       className='flex items-center justify-center relative overflow-hidden group'>
                       {/* Image */}
-                      <Image 
-                        src={image.path} 
-                        width={500} 
-                        height={300} 
-                        alt="" 
-                      />
+                      <Link href={image.link}>
+                        <Image 
+                          src={image.path} 
+                          width={500} 
+                          height={300} 
+                          alt="" 
+                        />
+                      </Link>
                       {/* Overlay gradient */}
                       <div 
                         className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'>
