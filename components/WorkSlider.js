@@ -52,6 +52,8 @@ const workSlides = {
   ],
 };
 
+import Link from 'next/link';
+
 // Image
 import Image from 'next/image';
 

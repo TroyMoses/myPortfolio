@@ -40,8 +40,8 @@ const Home = () => {
             initial='hidden' 
             animate='show' 
             exit='hidden' 
-            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-            With the help of various technologies and digital approaches, I enhance daily tasks, provide digital solutions for most community related problems and simply make the world a better global place to live in.
+            className='max-w-sm text-lg xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
+             I provide digital solutions, enhance daily tasks for most community related problems through digital approaches and various technologies.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
