@@ -30,8 +30,8 @@ const Home = () => {
             animate='show' 
             exit='hidden' 
             className='h1'>
-            Transforming Ideas <br /> Into {''}
-            <span className='text-accent'>Digital Reality</span>
+            Mystery Beyond <br /> The {''}
+            <span className='text-accent'>Digital Realm</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -40,8 +40,8 @@ const Home = () => {
             initial='hidden' 
             animate='show' 
             exit='hidden' 
-            className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry without regard for the safety of the type of representation that will be used in the future.
+            className='max-w-sm text-lg xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
+             I provide digital solutions, enhance daily tasks for most community related problems through digital approaches and various technologies.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>

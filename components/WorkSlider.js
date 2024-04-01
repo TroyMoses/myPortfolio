@@ -6,18 +6,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link: 'http://troylegacy.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link: 'http://nalongo-lwokyaza-foundation.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          link: 'http://usvaswampvolleyball.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link: 'http://ozohengineeringcompany.com',
         },
       ],
     },
@@ -26,23 +30,29 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb4.jpg',
+          link: 'http://ozohengineeringcompany.com',
         },
         {
           title: 'title',
           path: '/thumb1.jpg',
+          link: 'http://troylegacy.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          link: 'http://nalongo-lwokyaza-foundation.vercel.app',
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          link: 'http://usvaswampvolleyball.vercel.app',
         },
       ],
     },
   ],
 };
+
+import Link from 'next/link';
 
 // Image
 import Image from 'next/image';
@@ -84,12 +94,14 @@ const WorkSlider = () => {
                     <div 
                       className='flex items-center justify-center relative overflow-hidden group'>
                       {/* Image */}
-                      <Image 
-                        src={image.path} 
-                        width={500} 
-                        height={300} 
-                        alt="" 
-                      />
+                      <Link href={image.link}>
+                        <Image 
+                          src={image.path} 
+                          width={500} 
+                          height={300} 
+                          alt="" 
+                        />
+                      </Link>
                       {/* Overlay gradient */}
                       <div 
                         className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'>
