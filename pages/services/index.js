@@ -35,7 +35,7 @@ const Services = () => {
               animate='show' 
               exit='hidden' 
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit, amet consectetur adipiscing elit. A eveniet dignissimos distinctio tempore harum laudantium.
+              Crafting innovative solutions tailored to elevate your brand's digital presence.
             </motion.p>
               
           </div>

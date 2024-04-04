@@ -24,7 +24,7 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafting unique identities that resonate with your target audience.',
   },
   {
     icon: <RxPencil2 />,
@@ -34,11 +34,6 @@ const serviceData = [
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxReader />,
-    title: 'Copywriting',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
