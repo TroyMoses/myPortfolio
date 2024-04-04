@@ -30,8 +30,8 @@ const Home = () => {
             animate='show' 
             exit='hidden' 
             className='h1'>
-            Mystery Beyond <br /> The {''}
-            <span className='text-accent'>Digital Realm</span>
+            Mystery Beyond <br /> Software {''}
+            <span className='text-accent'>Solutions</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -40,7 +40,7 @@ const Home = () => {
             initial='hidden' 
             animate='show' 
             exit='hidden' 
-            className='max-w-sm text-lg xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
+            className='max-w-sm text-lg xl:text-2xl xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
              I provide digital solutions, enhance daily tasks for most community related problems through digital approaches and various technologies.
           </motion.p>
           {/* btn */}

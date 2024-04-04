@@ -14,7 +14,7 @@ import {
 const Socials = () => {
   return (
     <div 
-      className="flex items-center gap-x-5 text-lg">
+      className="flex items-center gap-x-5 text-xl">
       <Link 
         href={'https://github.com/TroyMoses'} 
         className="hover:text-accent transition-all duration-300">
