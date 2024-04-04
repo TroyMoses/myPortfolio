@@ -34,8 +34,9 @@ const Work = () => {
               initial='hidden' 
               animate='show' 
               exit='hidden' 
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit, amet consectetur adipiscing elit. A eveniet dignissimos distinctio tempore harum laudantium.
+              className='mb-4 max-w-[400px] md:text-lg mx-auto lg:mx-0'>
+              Explore my diverse projects, each crafted to meet client needs and exceed expectations. <br /><br />
+              From stunning web designs to robust software solutions, discover how my expertise translates into tangible results.
             </motion.p>
               
           </div>

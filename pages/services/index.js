@@ -34,7 +34,7 @@ const Services = () => {
               initial='hidden' 
               animate='show' 
               exit='hidden' 
-              className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
+              className='mb-4 max-w-[400px] md:text-lg mx-auto lg:mx-0'>
               Crafting innovative solutions tailored to elevate your brand's digital presence.
             </motion.p>
               

@@ -2,13 +2,13 @@
 const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Eliezer Joel',
-    position: 'Engineer',
+    name: 'Mystery Walker',
+    position: 'Client',
     message:
       'I have always enjoyed the services of troylegacy. He is so passionate about delivering quality services.',
   },
   {
-    image: '/t-avt-2.png',
+    image: '/t-avt-3.png',
     name: 'Francis Lubanjwa',
     position: 'Partner',
     message:
