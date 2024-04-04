@@ -133,7 +133,8 @@ const About = () => {
               animate='show'
               exit='hidden'  
               className="h2">
-              Captivating <span className="text-accent">stories</span> birth magnificent designs.
+              Artistry Behind <br />
+              Digital <span className="text-accent">Solutions<br /></span>
             </motion.h2>
             <motion.p 
               variants={fadeIn('right', 0.4)} 
